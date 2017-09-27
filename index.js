@@ -31,7 +31,7 @@ function viewCart() {
       console.log(`${str} ${Object.keys(cart[0])} at $${cart[0][Object.keys(cart[0])]} and ${Object.keys(cart[1])} at $${cart[1][Object.keys(cart[1])]}.`)
       //${Object.values(cart)[1]}.`
   } else {
-      var str2
+      var str2=""
       for (var i=0;i<cart.length-1;i++){
         //str2+=
         str2=`${str2} ${Object.keys(cart[i])} at $${cart[i][Object.keys(cart[i])]},`
