@@ -34,10 +34,12 @@ function viewCart() {
       var str2=""
       for (var i=0;i<cart.length-1;i++){
         //str2+=
-        str2=`${str2} ${Object.keys(cart[i])} at $${cart[i][Object.keys(cart[i])]},`
+        //str2=`${str2} 
+        str2 += `${Object.keys(cart[i])} at $${cart[i][Object.keys(cart[i])]},`
       }
       //str2=str2+
-      str2=`${str2} and ${Object.keys(cart[cart.length-1])} at $${cart[cart.length-1][Object.keys(cart[cart.length-1])]}.`
+      //str2=`${str2} 
+      str2 += `and ${Object.keys(cart[cart.length-1])} at $${cart[cart.length-1][Object.keys(cart[cart.length-1])]}.`
       console.log(`${str} ${str2}`)
   }
 
