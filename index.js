@@ -20,6 +20,7 @@ function viewCart() {
   // write your code here
   if (!cart.length){
     //console.log("Your shopping cart is empty.")
+    console.log('apples')
     return
   }/*
   var str = "In your cart, you have"
