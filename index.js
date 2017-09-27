@@ -39,7 +39,7 @@ function viewCart() {
       str2=`${str2} and ${Object.keys(cart)[cart.length-1]} at $${Object.values(cart)[cart.length-1]}.`
       return `${str} ${str2}`
   }
-  */
+
 }
 
 function total() {
