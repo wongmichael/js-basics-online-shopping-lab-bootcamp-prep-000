@@ -30,7 +30,8 @@ function viewCart() {
   } else {
       var str2
       for (var i=0;i<cart.length-1;i++){
-        str2+=`${Object.keys(cart)[i]} at $${Object.values(cart)[i]},`
+        //str2+=
+        str2=`${str2} ${Object.keys(cart)[i]} at $${Object.values(cart)[i]},`
       }
       //str2=str2+
       str2=`${str2} and ${Object.keys(cart)[cart.length-1]} at $${Object.values(cart)[cart.length--1]}.`
