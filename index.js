@@ -34,7 +34,7 @@ function viewCart() {
         str2=`${str2} ${Object.keys(cart)[i]} at $${Object.values(cart)[i]},`
       }
       //str2=str2+
-      str2=`${str2} and ${Object.keys(cart)[cart.length-1]} at $${Object.values(cart)[cart.length--1]}.`
+      str2=`${str2} and ${Object.keys(cart)[cart.length-1]} at $${Object.values(cart)[cart.length-1]}.`
       return `${str} ${str2}`
   }
 }
