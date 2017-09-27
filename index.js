@@ -24,7 +24,7 @@ function viewCart() {
   }
   var str = "In your cart, you have"
   if (cart.length==1) {
-    return `${str} ${Object.keys(cart)[0]} at ${cart[0].Object.keys(cart[0])}`
+    return `${str} ${Object.keys(cart[0])} at ${cart[0].Object.keys(cart[0])}`
     //${Object.values(cart[0])}.`
   } else if (cart.length==2) {
       return `$(str) ${Object.keys(cart)[0]} at $${Object.values(cart)[0]} and ${Object.keys(cart)[1]} at $${Object.values(cart)[1]}.`
